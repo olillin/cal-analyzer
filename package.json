@@ -1,0 +1,33 @@
+{
+  "name": "cal-analyzer",
+  "version": "0.1.0",
+  "description": "Get information about calendars (.ical files)",
+  "scripts": {
+    "build": "tsc",
+    "start": "cd out && node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olillin/cal-analyzer.git"
+  },
+  "keywords": [
+    "calendar",
+    "icalendar",
+    "ical",
+    "analyzer"
+  ],
+  "author": "olillin <oli@olillin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olillin/cal-analyzer/issues"
+  },
+  "homepage": "https://github.com/olillin/cal-analyzer#readme",
+  "dependencies": {
+    "iamcal": "^1.0.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1"
+  }
+}
